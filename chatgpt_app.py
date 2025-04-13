@@ -1,8 +1,8 @@
 import streamlit as st
-import openai
 from openai import OpenAI
 
-client = OpenAI(api_key="your-api-key-here")
+# Set up the OpenAI client with your API key
+client = OpenAI(api_key="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")
 
 st.title("🤖 Chat with ChatGPT")
 
